@@ -8,6 +8,7 @@ function theBeatlesPlay(arr1, arr2) {
   return newArr;
 }
 
+<<<<<<< HEAD
 function johnLennonFacts(factsArr){
   var newArr = [];
   var i = 0;
@@ -27,4 +28,14 @@ function iLoveTheBeatles(x){
     }
   while (x < 15);
     return newArr;
+=======
+function johnLennonFacts(arr1){
+  var newArr = [];
+  while (newArr < arr1.length)
+  {
+    var str = arr1[i++] + '!!!';
+    newArr.push(str);
+  }
+  return newArr;
+>>>>>>> b447b1ca9823a6b415436c8fe1184d338a007b79
 }
